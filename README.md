@@ -23,6 +23,29 @@ This is a curated list of AI-powered developer tools. These tools leverage AI to
 - [Resources](#resources)
 
 ## IDEs
+
+The following table summarizes Arm Linux (arm64/aarch64) support for each IDE:
+
+| IDE | Arm Linux Support (arm64/aarch64) |
+|-----|--------------------------------------|
+| [Google Antigravity](https://antigravity.google/) | ✅ Web-based (runs in any browser) |
+| [Crystal](https://github.com/stravu/crystal) | ❌ x86_64 Linux only (discontinued) |
+| [Cursor](https://www.cursor.com/) | ✅ Yes (official arm64 AppImage) |
+| [PearAI](https://trypear.ai/) | ❌ x86_64 Linux only |
+| [Melty](https://melty.sh/) | ⚠️ Source code only (no pre-built arm64 binaries) |
+| [Replit](https://replit.com/) | ✅ Web-based (runs in any browser) |
+| [Mutable](https://github.com/mutableai/monitors4codegen) | ✅ Web-based (runs in any browser) |
+| [CodeStory](https://codestory.ai/) | ✅ Yes (arm64 Linux binaries available; project archived) |
+| [UI Pilot](https://ui-pilot.com/) | ✅ Web-based (runs in any browser) |
+| [GitWit](https://gitwit.dev/) | ✅ Web-based (runs in any browser) |
+| [Windsurf](https://windsurf.com) | ❌ x86_64 Linux only |
+| [Theia IDE](https://theia-ide.org/#theiaide) | ⚠️ Docker/web supports arm64; desktop Linux is x86_64 only |
+| [OneCompiler](https://onecompiler.com/) | ✅ Web-based (runs in any browser) |
+| [trae](https://www.trae.ai/) | ❌ x86_64 Linux only |
+| [Zed](https://zed.dev/) | ✅ Yes (official arm64 tarball) |
+| [Nimbalyst](https://nimbalyst.com) | ❌ x86_64 Linux only |
+| [Parallel Code](https://github.com/johannesjo/parallel-code) | ❌ x86_64 Linux only |
+
 - [Google Antigravity](https://antigravity.google/) — An agent-first IDE that orchestrates autonomous AI agents to plan, execute, and verify complex coding tasks with deep browser integration.
 - [Crystal](https://github.com/stravu/crystal) — A new type of dev environment to manage, inspect, and test parallel Claude Code sessions.
 - [Cursor](https://www.cursor.com/) — An IDE with chat, edit, generate and debug features. Forked from VSCodium, so the interface is similar to VS Code. Uses OpenAI.
