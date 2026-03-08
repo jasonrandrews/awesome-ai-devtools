@@ -175,6 +175,33 @@ The following table summarizes Arm Linux (arm64/aarch64) support for each shell 
 
 ## Agents
 
+The following table summarizes Arm Linux (arm64/aarch64) support for each agent:
+
+| Agent | Arm Linux Support (arm64/aarch64) |
+|-------|--------------------------------------|
+| [Smol Developer](https://github.com/smol-ai/developer) | ✅ Yes — pure Python pip package |
+| [Aider](https://github.com/paul-gauthier/aider) | ✅ Yes — pure Python pip package |
+| [Blinky](https://github.com/seahyinghang8/blinky) | ✅ Yes — VS Code extension (platform-agnostic) |
+| [Mentat](https://www.mentat.ai/) | ⚠️ pip package exists but project appears abandoned |
+| [GPT Engineer](https://github.com/AntonOsika/gpt-engineer) | ✅ Yes — pure Python pip package |
+| [GPT Migrate](https://github.com/0xpayne/gpt-migrate) | ✅ Yes — pure Python; Docker required at runtime |
+| [Grit](https://app.grit.io) | ✅ Yes — official `aarch64-unknown-linux-gnu` binary |
+| [DemoGPT](https://github.com/melih-unsal/DemoGPT) | ✅ Yes — pure Python pip package |
+| [DevOpsGPT](https://github.com/kuafuai/DevOpsGPT) | ⚠️ Likely — Docker-based; no explicit arm64 CI |
+| [CodeFlash AI](https://www.codeflash.ai/) | ✅ Yes — universal `py3-none-any` wheel |
+| [Micro Agent by Builder](https://www.builder.io/blog/micro-agent) | ✅ Yes — npm/Node.js package |
+| [Fine](https://fine.dev/) | ✅ Web-based (runs in any browser) |
+| [Potpie](https://potpie.ai) | ⚠️ Likely — Docker + Python; no pre-built multi-arch images |
+| [Roundtable MCP Server](https://github.com/askbudi/roundtable) | ✅ Yes — pure Python pip package |
+| [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) | ✅ Yes — npm package; officially supports Linux arm64 |
+| [Open Agent](https://github.com/Th0rgal/openagent) | ⚠️ Likely — Docker-based with arm64 path in Dockerfile |
+| [Agentic Sprint](https://github.com/damienlaine/agentic-sprint) | ✅ Yes — Claude Code plugin (platform-agnostic) |
+| [VibeBox](https://vibebox.robcholz.com) | ❌ No — macOS/Apple Silicon only (Apple Virtualization Framework) |
+| [Leap.new](https://leap.new/) | ✅ Web-based (runs in any browser) |
+| [Recurse ML](https://recurse.ml) | ✅ Web-based (runs in any browser) |
+| [Zenable](https://zenable.io/) | ✅ Yes — Claude Code plugin; MCP server is cloud-hosted |
+| [Trellis](https://github.com/mindfold-ai/Trellis) | ✅ Yes — npm/Node.js package |
+
 - [Smol Developer](https://github.com/smol-ai/developer) — CLI agent that generates a repository from a prompt. Uses OpenAI and Anthropic.
 - [Aider](https://github.com/paul-gauthier/aider) — CLI assistant and agent that generates changes and commits to repositories. Uses OpenAI.
 - [Blinky](https://github.com/seahyinghang8/blinky) — A debugging agent for VS Code that helps to identify and fix backend errors, inspired by SWE-agent.
