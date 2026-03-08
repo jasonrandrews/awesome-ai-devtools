@@ -154,12 +154,12 @@ The following table summarizes Arm Linux (arm64/aarch64) support for each shell 
 | Shell Assistant | Arm Linux Support (arm64/aarch64) |
 |-----------------|--------------------------------------|
 | [AskCommand](https://www.askcommand.cppexpert.online/) | ✅ Web-based (runs in any browser) |
-| [Butterfish](https://butterfi.sh) | ⚠️ No pre-built Linux binaries; install via `go install` |
+| [Butterfish](https://butterfi.sh) | ⚠️ Build from source via `go install` (no pre-built Linux binaries) |
 | [Shell Whiz](https://github.com/beimzhan/shell-whiz) | ✅ Yes — pure Python pip package (`pip install shell-whiz`) |
 | [GitFluence](https://www.gitfluence.com/) | ✅ Web-based (runs in any browser) |
 | [AutoComplete.sh](https://github.com/closedLoop-technologies/autocomplete-sh) | ✅ Yes — architecture-agnostic shell scripts |
 | [code-collator](https://github.com/tawandakembo/code-collator) | ✅ Yes — pure Python pip package (`pip install code-collator`) |
-| [Warp](https://www.warp.dev/) | ✅ Yes — official arm64 Linux builds available (GPU driver required) |
+| [Warp](https://www.warp.dev/) | ✅ Yes — official arm64 Linux builds available (Vulkan GPU driver required) |
 | [TmuxAI](https://tmuxai.dev/) | ✅ Yes — official Linux arm64 binary |
 | [intelli-shell](https://github.com/lasantosr/intelli-shell) | ✅ Yes — official aarch64 Linux binaries (glibc and musl) |
 

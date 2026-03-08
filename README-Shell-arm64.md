@@ -26,7 +26,7 @@ This document lists all shell assistants from the [Awesome AI-Powered Developer 
 
 ### Native Arm64 Binaries
 
-- **[Warp](https://www.warp.dev/)** — Official arm64 Debian packages are available (e.g., `warp-terminal_*_arm64.deb`) and it is listed in the Arch Linux pacman repository (`warp-terminal`). Note that Warp relies on GPU acceleration via wgpu; some arm64 systems with non-standard GPU drivers (e.g., Panfrost/Mali) may fail to launch. Ensure Mesa Vulkan drivers are installed and your GPU is supported.
+- **[Warp](https://www.warp.dev/)** — Official arm64 Debian packages are available (e.g., `warp-terminal_*_arm64.deb`) and it is listed in the Arch Linux pacman repository (`warp-terminal`). Warp uses GPU-accelerated rendering via wgpu and requires Vulkan drivers. Some arm64 systems with non-standard GPU drivers (e.g., Panfrost/Mali) may fail to launch. Ensure Mesa Vulkan drivers are installed and your GPU is supported.
 
 - **[TmuxAI](https://tmuxai.dev/)** — Built in Go and distributed via [goreleaser](https://github.com/alvinunreal/tmuxai). Pre-built Linux arm64 binaries (`tmuxai_Linux_arm64.tar.gz`) are available on the [GitHub releases page](https://github.com/alvinunreal/tmuxai/releases). The install script (`curl -fsSL https://get.tmuxai.dev | bash`) auto-detects arm64 and downloads the correct binary. DEB, RPM, and APK packages are also produced for arm64.
 

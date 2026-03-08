@@ -185,7 +185,7 @@ All of the following tools publish a `py3-none-any` wheel to PyPI (or are pure P
   ./scripts/start.sh
   ```
 
-- **[Open Agent / sandboxed.sh](https://github.com/Th0rgal/sandboxed.sh)** — Self-hosted control plane for AI coding agents (Claude Code, OpenCode, Amp) with isolated Linux container workspaces (systemd-nspawn), real-time mission streaming, and a Next.js dashboard. (The original repo `Th0rgal/openagent` has been renamed to `sandboxed.sh`.) The Dockerfile builds a Rust backend + Next.js frontend on `ubuntu:24.04`. The Dockerfile has explicit arm64 support in the RTK binary download step (`aarch64|arm64`). No pre-built multi-arch Docker images confirmed; build from source on arm64. Install via:
+- **[Open Agent / sandboxed.sh](https://github.com/Th0rgal/sandboxed.sh)** — Self-hosted control plane for AI coding agents (Claude Code, OpenCode, Amp) with isolated Linux container workspaces (systemd-nspawn), real-time mission streaming, and a Next.js dashboard. The original repo `Th0rgal/openagent` has been renamed to `sandboxed.sh`. The Dockerfile builds a Rust backend and Next.js frontend on `ubuntu:24.04`. It has explicit arm64 detection in the RTK binary download step (`aarch64|arm64`), indicating arm64 awareness. No pre-built multi-arch Docker images are published; build from source on arm64. Install via:
   ```bash
   git clone https://github.com/Th0rgal/sandboxed.sh.git
   cd sandboxed.sh && cp .env.example .env
