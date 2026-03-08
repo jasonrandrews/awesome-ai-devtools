@@ -93,6 +93,8 @@ The following table summarizes Arm Linux (arm64/aarch64) support for each IDE:
 
 ### IDE extensions
 
+> **Arm Linux note:** IDE extensions themselves are platform-agnostic (JavaScript/TypeScript bundles). However, some tools in this section include **self-hosted server components** with compiled binaries — their Linux arm64 support varies. See [README-Assistants-arm64.md](README-Assistants-arm64.md) for details on Tabby, Refact AI, and CodeComplete.
+
 - [GitHub Copilot](https://github.com/features/copilot) — A VS Code extension with chat, pull request text generation, and unit test generation.
 - [Cline](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev) — Autonomous coding agent for VS Code that can create/edit files, execute commands, and use the browser with user permission. Supports multiple AI providers including OpenRouter, Anthropic, OpenAI, Google Gemini, AWS Bedrock, Azure, and GCP Vertex.
 - [Refact AI](https://refact.ai/) [Source](https://github.com/smallcloudai/refact) — Open source assistant with chat, completion, refactoring, and codebase-specific fine-tuning. Extensions for VS Code and JetBrains.
@@ -317,6 +319,13 @@ The following table summarizes Arm Linux (arm64/aarch64) support for each agent:
 - [EkLine](https://ekline.io/) — Helps software teams create and maintain high-quality documentation with AI-powered quality checks, style guide enforcement, and automatic doc generation.
 
 ## Observability
+
+The following table summarizes Arm Linux (arm64/aarch64) support for each observability tool:
+
+| Observability Tool | Type | Arm Linux Support (arm64/aarch64) |
+|--------------------|------|--------------------------------------|
+| [TraceRoot AI](https://traceroot.ai/) | SaaS | ✅ Web-based — no local binary required |
+
 - [TraceRoot AI](https://traceroot.ai/) - An AI native observability tool that using AI agents to automatically fix your production bugs.
 
 ## OpenAI plugins
@@ -326,12 +335,37 @@ The following table summarizes Arm Linux (arm64/aarch64) support for each agent:
 
 ## Search
 
+The following table summarizes Arm Linux (arm64/aarch64) support for each search tool. See [README-Search-arm64.md](README-Search-arm64.md) for details.
+
+| Search Tool | Type | Arm Linux Support (arm64/aarch64) |
+|-------------|------|--------------------------------------|
+| [Bloop](https://bloop.ai/) | Desktop app (Tauri/Rust; discontinued) | ⚠️ macOS arm64 only — Linux arm64 ❌; project appears defunct |
+| [Buildt](https://www.buildt.ai/) | Web (appears defunct) | ✅ Web-based — no local binary |
+| [SeaGOAT](https://kantord.github.io/SeaGOAT/latest/) | Python CLI/server | ✅ Yes — `py3-none-any` wheel; `pip install seagoat` |
+| [ContextMCP](https://contextmcp.ai) | Self-hosted | ❓ Unknown — no public repository or Docker images found |
+
 - [Bloop](https://bloop.ai/) — Natural language search for repositories.
 - [Buildt](https://www.buildt.ai/) — Natural language search for repositories. Waitlist.
 - [SeaGOAT](https://kantord.github.io/SeaGOAT/latest/) — A local search tool leveraging vector embeddings to search your codebase semantically.
 - [ContextMCP](https://contextmcp.ai) — Self-hosted semantic search across documentation from various sources for AI agents.
 
 ## Testing
+
+The following table summarizes Arm Linux (arm64/aarch64) support for each testing tool. See [README-Testing-arm64.md](README-Testing-arm64.md) for details.
+
+| Testing Tool | Type | Arm Linux Support (arm64/aarch64) |
+|--------------|------|--------------------------------------|
+| [Checksum AI](https://checksum.ai) | SaaS CI/CD integration | ✅ Web-based — no local binary required |
+| [OctoMind](https://octomind.dev) | SaaS/cloud | ✅ Web-based — no local binary required |
+| [Traceloop](https://traceloop.com/) | Python SDK | ✅ Yes — pure Python `traceloop-sdk`; `pip install traceloop-sdk` |
+| [Carbonate](https://carbonate.dev/) | SaaS | ✅ Web-based — no local binary required |
+| [Meticulous.ai](https://www.meticulous.ai/) | npm CLI | ✅ Yes — `@alwaysmeticulous/cli` npm package; no native binaries |
+| [DiffBlue](https://www.diffblue.com/) | Docker CLI + IDE plugins | ⚠️ Partial — IDE plugins ✅ (JVM); Docker `cover-cli` is linux/amd64 only |
+| [Qodo](https://www.qodo.ai/) | VS Code / JetBrains extension | ✅ Yes — platform-agnostic IDE extension |
+| [DeepUnit](https://www.deepunit.ai/) | VS Code extension / npm | ✅ Yes — platform-agnostic extension; npm CLI has no native deps |
+| [MutahunterAI](https://github.com/codeintegrity-ai/mutahunter) | Python CLI/CI | ✅ Yes — `py3-none-any` wheel; `pip install mutahunter` |
+| [KushoAI](https://kusho.ai/) | SaaS | ✅ Web-based — no local binary required |
+| [Test Gru](https://gru.ai/home#test-gru) | Web | ✅ Web-based — no local binary required |
 
 - [Checksum AI](https://checksum.ai) — End-to-end fully autonomous QA Automation agent that generates CI/CD ready Playwright tests directly to the repository
 - [OctoMind](https://octomind.dev) — Auto-maintenance and generated browser-based end-to-end-tests integrated into Github Actions, Azure DevOps and more.
@@ -348,6 +382,12 @@ The following table summarizes Arm Linux (arm64/aarch64) support for each agent:
 - [AgentsKB](https://agentskb.com) - Expert knowledge layer for AI assistants. Your AI searches, we research. That's the difference.
 
 ## Evaluation
+
+The following table summarizes Arm Linux (arm64/aarch64) support for each evaluation tool:
+
+| Evaluation Tool | Type | Arm Linux Support (arm64/aarch64) |
+|-----------------|------|--------------------------------------|
+| [sniffbench](https://github.com/AnswerLayer/sniffbench) | npm CLI | ✅ Yes — pure JS/TS; `npm install -g sniffbench`; Node.js ≥ 18; no native binaries |
 
 - [sniffbench](https://github.com/AnswerLayer/sniffbench) — Benchmark suite for evaluating coding agents. Compare configurations, track metrics, and A/B test with real issues from your repos.
 
