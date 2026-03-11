@@ -23,29 +23,6 @@ This is a curated list of AI-powered developer tools. These tools leverage AI to
 - [Resources](#resources)
 
 ## IDEs
-
-The following table summarizes Arm Linux (arm64/aarch64) support for each IDE:
-
-| IDE | Arm Linux Support (arm64/aarch64) |
-|-----|--------------------------------------|
-| [Google Antigravity](https://antigravity.google/) | ✅ Web-based (runs in any browser) |
-| [Crystal](https://github.com/stravu/crystal) | ❌ x86_64 Linux only (discontinued) |
-| [Cursor](https://www.cursor.com/) | ✅ Yes (official arm64 AppImage) |
-| [PearAI](https://trypear.ai/) | ❌ x86_64 Linux only |
-| [Melty](https://melty.sh/) | ⚠️ Source code only (no pre-built arm64 binaries) |
-| [Replit](https://replit.com/) | ✅ Web-based (runs in any browser) |
-| [Mutable](https://github.com/mutableai/monitors4codegen) | ✅ Web-based (runs in any browser) |
-| [CodeStory](https://codestory.ai/) | ✅ Yes (arm64 Linux binaries available; project archived) |
-| [UI Pilot](https://ui-pilot.com/) | ✅ Web-based (runs in any browser) |
-| [GitWit](https://gitwit.dev/) | ✅ Web-based (runs in any browser) |
-| [Windsurf](https://windsurf.com) | ❌ x86_64 Linux only |
-| [Theia IDE](https://theia-ide.org/#theiaide) | ⚠️ Docker/web supports arm64; desktop Linux is x86_64 only |
-| [OneCompiler](https://onecompiler.com/) | ✅ Web-based (runs in any browser) |
-| [trae](https://www.trae.ai/) | ❌ x86_64 Linux only |
-| [Zed](https://zed.dev/) | ✅ Yes (official arm64 tarball) |
-| [Nimbalyst](https://nimbalyst.com) | ❌ x86_64 Linux only |
-| [Parallel Code](https://github.com/johannesjo/parallel-code) | ❌ x86_64 Linux only |
-
 - [Google Antigravity](https://antigravity.google/) — An agent-first IDE that orchestrates autonomous AI agents to plan, execute, and verify complex coding tasks with deep browser integration.
 - [Crystal](https://github.com/stravu/crystal) — A new type of dev environment to manage, inspect, and test parallel Claude Code sessions.
 - [Cursor](https://www.cursor.com/) — An IDE with chat, edit, generate and debug features. Forked from VSCodium, so the interface is similar to VS Code. Uses OpenAI.
@@ -94,8 +71,6 @@ The following table summarizes Arm Linux (arm64/aarch64) support for each IDE:
 - [Gru.ai](https://www.gru.ai/) — An AI developer can help you solve technical problems and tackle daily coding tasks, such as building algorithms, debug issues, test solutions, answer programming questions, etc.
 
 ### IDE extensions
-
-> **Arm Linux note:** IDE extensions themselves are platform-agnostic (JavaScript/TypeScript bundles). However, some tools in this section include **self-hosted server components** with compiled binaries — their Linux arm64 support varies. See [README-Assistants-arm64.md](README-Assistants-arm64.md) for details on Tabby, Refact AI, and CodeComplete.
 
 - [GitHub Copilot](https://github.com/features/copilot) — A VS Code extension with chat, pull request text generation, and unit test generation.
 - [Cline](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev) — Autonomous coding agent for VS Code that can create/edit files, execute commands, and use the browser with user permission. Supports multiple AI providers including OpenRouter, Anthropic, OpenAI, Google Gemini, AWS Bedrock, Azure, and GCP Vertex.
@@ -158,20 +133,6 @@ The following table summarizes Arm Linux (arm64/aarch64) support for each IDE:
 
 ## Shell assistants
 
-The following table summarizes Arm Linux (arm64/aarch64) support for each shell assistant:
-
-| Shell Assistant | Arm Linux Support (arm64/aarch64) |
-|-----------------|--------------------------------------|
-| [AskCommand](https://www.askcommand.cppexpert.online/) | ✅ Web-based (runs in any browser) |
-| [Butterfish](https://butterfi.sh) | ⚠️ Build from source via `go install` (no pre-built Linux binaries) |
-| [Shell Whiz](https://github.com/beimzhan/shell-whiz) | ✅ Yes — pure Python pip package (`pip install shell-whiz`) |
-| [GitFluence](https://www.gitfluence.com/) | ✅ Web-based (runs in any browser) |
-| [AutoComplete.sh](https://github.com/closedLoop-technologies/autocomplete-sh) | ✅ Yes — architecture-agnostic shell scripts |
-| [code-collator](https://github.com/tawandakembo/code-collator) | ✅ Yes — pure Python pip package (`pip install code-collator`) |
-| [Warp](https://www.warp.dev/) | ✅ Yes — official arm64 Linux builds available (Vulkan GPU driver required) |
-| [TmuxAI](https://tmuxai.dev/) | ✅ Yes — official Linux arm64 binary |
-| [intelli-shell](https://github.com/lasantosr/intelli-shell) | ✅ Yes — official aarch64 Linux binaries (glibc and musl) |
-
 - [AskCommand](https://www.askcommand.cppexpert.online/) — Web based tool to generate Unix commands from text automatically using AI.
 - [Butterfish](https://butterfi.sh) — CLI tool that embeds ChatGPT in your shell for easy access. Includes simple agentic capabilities.
 - [Shell Whiz](https://github.com/beimzhan/shell-whiz) — highly configurable CLI assistant to generate shell commands and get explanations for them.
@@ -183,33 +144,6 @@ The following table summarizes Arm Linux (arm64/aarch64) support for each shell 
 - [intelli-shell](https://github.com/lasantosr/intelli-shell) - Manage command templates/snippets with dynamic completions and AI integration.
 
 ## Agents
-
-The following table summarizes Arm Linux (arm64/aarch64) support for each agent:
-
-| Agent | Arm Linux Support (arm64/aarch64) |
-|-------|--------------------------------------|
-| [Smol Developer](https://github.com/smol-ai/developer) | ✅ Yes — pure Python pip package |
-| [Aider](https://github.com/paul-gauthier/aider) | ✅ Yes — pure Python pip package |
-| [Blinky](https://github.com/seahyinghang8/blinky) | ✅ Yes — VS Code extension (platform-agnostic) |
-| [Mentat](https://www.mentat.ai/) | ⚠️ pip package exists but project appears abandoned |
-| [GPT Engineer](https://github.com/AntonOsika/gpt-engineer) | ✅ Yes — pure Python pip package |
-| [GPT Migrate](https://github.com/0xpayne/gpt-migrate) | ✅ Yes — pure Python; Docker required at runtime |
-| [Grit](https://app.grit.io) | ✅ Yes — official `aarch64-unknown-linux-gnu` binary |
-| [DemoGPT](https://github.com/melih-unsal/DemoGPT) | ✅ Yes — pure Python pip package |
-| [DevOpsGPT](https://github.com/kuafuai/DevOpsGPT) | ⚠️ Likely — Docker-based; no explicit arm64 CI |
-| [CodeFlash AI](https://www.codeflash.ai/) | ✅ Yes — universal `py3-none-any` wheel |
-| [Micro Agent by Builder](https://www.builder.io/blog/micro-agent) | ✅ Yes — npm/Node.js package |
-| [Fine](https://fine.dev/) | ✅ Web-based (runs in any browser) |
-| [Potpie](https://potpie.ai) | ⚠️ Likely — Docker + Python; no pre-built multi-arch images |
-| [Roundtable MCP Server](https://github.com/askbudi/roundtable) | ✅ Yes — pure Python pip package |
-| [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) | ✅ Yes — npm package; officially supports Linux arm64 |
-| [Open Agent](https://github.com/Th0rgal/openagent) | ⚠️ Likely — Docker-based with arm64 path in Dockerfile |
-| [Agentic Sprint](https://github.com/damienlaine/agentic-sprint) | ✅ Yes — Claude Code plugin (platform-agnostic) |
-| [VibeBox](https://vibebox.robcholz.com) | ❌ No — macOS/Apple Silicon only (Apple Virtualization Framework) |
-| [Leap.new](https://leap.new/) | ✅ Web-based (runs in any browser) |
-| [Recurse ML](https://recurse.ml) | ✅ Web-based (runs in any browser) |
-| [Zenable](https://zenable.io/) | ✅ Yes — Claude Code plugin; MCP server is cloud-hosted |
-| [Trellis](https://github.com/mindfold-ai/Trellis) | ✅ Yes — npm/Node.js package |
 
 - [Smol Developer](https://github.com/smol-ai/developer) — CLI agent that generates a repository from a prompt. Uses OpenAI and Anthropic.
 - [Aider](https://github.com/paul-gauthier/aider) — CLI assistant and agent that generates changes and commits to repositories. Uses OpenAI.
@@ -328,13 +262,6 @@ The following table summarizes Arm Linux (arm64/aarch64) support for each agent:
 - [Changenotes](https://changenotes.app) — AI-powered changelog generator. Connects to GitHub, auto-generates categorized changelogs from commits and PRs on every release. Free tier available, Pro $9/mo.
 
 ## Observability
-
-The following table summarizes Arm Linux (arm64/aarch64) support for each observability tool:
-
-| Observability Tool | Type | Arm Linux Support (arm64/aarch64) |
-|--------------------|------|--------------------------------------|
-| [TraceRoot AI](https://traceroot.ai/) | SaaS | ✅ Web-based — no local binary required |
-
 - [TraceRoot AI](https://traceroot.ai/) - An AI native observability tool that using AI agents to automatically fix your production bugs.
 
 ## OpenAI plugins
@@ -344,37 +271,12 @@ The following table summarizes Arm Linux (arm64/aarch64) support for each observ
 
 ## Search
 
-The following table summarizes Arm Linux (arm64/aarch64) support for each search tool. See [README-Search-arm64.md](README-Search-arm64.md) for details.
-
-| Search Tool | Type | Arm Linux Support (arm64/aarch64) |
-|-------------|------|--------------------------------------|
-| [Bloop](https://bloop.ai/) | Desktop app (Tauri/Rust; discontinued) | ⚠️ macOS arm64 only — Linux arm64 ❌; project appears defunct |
-| [Buildt](https://www.buildt.ai/) | Web (appears defunct) | ✅ Web-based — no local binary |
-| [SeaGOAT](https://kantord.github.io/SeaGOAT/latest/) | Python CLI/server | ✅ Yes — `py3-none-any` wheel; `pip install seagoat` |
-| [ContextMCP](https://contextmcp.ai) | Self-hosted | ❓ Unknown — no public repository or Docker images found |
-
 - [Bloop](https://bloop.ai/) — Natural language search for repositories.
 - [Buildt](https://www.buildt.ai/) — Natural language search for repositories. Waitlist.
 - [SeaGOAT](https://kantord.github.io/SeaGOAT/latest/) — A local search tool leveraging vector embeddings to search your codebase semantically.
 - [ContextMCP](https://contextmcp.ai) — Self-hosted semantic search across documentation from various sources for AI agents.
 
 ## Testing
-
-The following table summarizes Arm Linux (arm64/aarch64) support for each testing tool. See [README-Testing-arm64.md](README-Testing-arm64.md) for details.
-
-| Testing Tool | Type | Arm Linux Support (arm64/aarch64) |
-|--------------|------|--------------------------------------|
-| [Checksum AI](https://checksum.ai) | SaaS CI/CD integration | ✅ Web-based — no local binary required |
-| [OctoMind](https://octomind.dev) | SaaS/cloud | ✅ Web-based — no local binary required |
-| [Traceloop](https://traceloop.com/) | Python SDK | ✅ Yes — pure Python `traceloop-sdk`; `pip install traceloop-sdk` |
-| [Carbonate](https://carbonate.dev/) | SaaS | ✅ Web-based — no local binary required |
-| [Meticulous.ai](https://www.meticulous.ai/) | npm CLI | ✅ Yes — `@alwaysmeticulous/cli` npm package; no native binaries |
-| [DiffBlue](https://www.diffblue.com/) | Docker CLI + IDE plugins | ⚠️ Partial — IDE plugins ✅ (JVM); Docker `cover-cli` is linux/amd64 only |
-| [Qodo](https://www.qodo.ai/) | VS Code / JetBrains extension | ✅ Yes — platform-agnostic IDE extension |
-| [DeepUnit](https://www.deepunit.ai/) | VS Code extension / npm | ✅ Yes — platform-agnostic extension; npm CLI has no native deps |
-| [MutahunterAI](https://github.com/codeintegrity-ai/mutahunter) | Python CLI/CI | ✅ Yes — `py3-none-any` wheel; `pip install mutahunter` |
-| [KushoAI](https://kusho.ai/) | SaaS | ✅ Web-based — no local binary required |
-| [Test Gru](https://gru.ai/home#test-gru) | Web | ✅ Web-based — no local binary required |
 
 - [Checksum AI](https://checksum.ai) — End-to-end fully autonomous QA Automation agent that generates CI/CD ready Playwright tests directly to the repository
 - [OctoMind](https://octomind.dev) — Auto-maintenance and generated browser-based end-to-end-tests integrated into Github Actions, Azure DevOps and more.
@@ -391,12 +293,6 @@ The following table summarizes Arm Linux (arm64/aarch64) support for each testin
 - [AgentsKB](https://agentskb.com) - Expert knowledge layer for AI assistants. Your AI searches, we research. That's the difference.
 
 ## Evaluation
-
-The following table summarizes Arm Linux (arm64/aarch64) support for each evaluation tool:
-
-| Evaluation Tool | Type | Arm Linux Support (arm64/aarch64) |
-|-----------------|------|--------------------------------------|
-| [sniffbench](https://github.com/AnswerLayer/sniffbench) | npm CLI | ✅ Yes — pure JS/TS; `npm install -g sniffbench`; Node.js ≥ 18; no native binaries |
 
 - [sniffbench](https://github.com/AnswerLayer/sniffbench) — Benchmark suite for evaluating coding agents. Compare configurations, track metrics, and A/B test with real issues from your repos.
 
