@@ -77,3 +77,23 @@ gt "your search query"
 **Website:** https://contextmcp.ai (currently unreachable)
 
 No public GitHub repository, Docker Hub images, or PyPI/npm packages were found for ContextMCP at the time of research. Without public artifacts, arm64 support cannot be verified. Contact the vendor directly to confirm whether a Linux arm64 deployment is available.
+
+---
+
+## Arm Linux Support Summary
+
+**Total search tools analyzed:** 4
+
+**Full Arm Linux support:** 2 search tools (50%)
+- 1 web-based tool (Buildt, though appears defunct)
+- 1 pure Python pip package (SeaGOAT, architecture-agnostic)
+
+**Partial Arm Linux support:** 1 search tool (25%)
+- Bloop (macOS arm64 supported; Linux arm64 not available; project discontinued)
+
+**No Arm Linux support:** 0 search tools (0%)
+
+**Unknown support:** 1 search tool (25%)
+- ContextMCP (no public artifacts found)
+
+**Overall Arm Linux compatibility: 75%** (combining full and partial support, excluding unknown tools)

@@ -18,3 +18,18 @@ Both resources are **web-based links** — a GitHub repository and a web applica
 - **[Awesome Code Docs](https://github.com/johnxie/awesome-code-docs)** — A curated GitHub repository with deep-dive tutorials on open-source AI developer tooling. Accessible as a web page on GitHub; no local installation needed.
 
 - **[Havoptic](https://havoptic.com/)** — A free, open-source web app that tracks and visualizes release timelines for AI coding tools. Auto-updated daily. The [source code](https://github.com/scotthavird/havoptic.com) is a web application accessible from any browser.
+
+---
+
+## Arm Linux Support Summary
+
+**Total resources analyzed:** 2
+
+**Full Arm Linux support:** 2 resources (100%)
+- 2 web-based resources (accessible from any browser)
+
+**Partial Arm Linux support:** 0 resources (0%)
+
+**No Arm Linux support:** 0 resources (0%)
+
+**Overall Arm Linux compatibility: 100%**

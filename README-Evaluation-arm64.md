@@ -19,3 +19,18 @@ The evaluation tool listed is a **Node.js CLI package** with no native binary de
   npm install -g sniffbench
   sniffbench run
   ```
+
+---
+
+## Arm Linux Support Summary
+
+**Total evaluation tools analyzed:** 1
+
+**Full Arm Linux support:** 1 evaluation tool (100%)
+- 1 Node.js CLI package (architecture-agnostic)
+
+**Partial Arm Linux support:** 0 evaluation tools (0%)
+
+**No Arm Linux support:** 0 evaluation tools (0%)
+
+**Overall Arm Linux compatibility: 100%**

@@ -46,3 +46,19 @@ All app generators in this list are **web-based platforms** or **self-hostable N
 - **[Srcbook](https://github.com/srcbookdev/srcbook)** — TypeScript notebook and AI app builder. Distributed as an npm package; install via `npx srcbook@latest start`. Node.js-based; fully arm64-compatible.
 
 - **[Blank Space](https://www.blankspace.build/)** — Open source alternative to v0/Lovable/Bolt. Self-hostable Node.js application. Clone and run; fully arm64-compatible.
+
+---
+
+## Arm Linux Support Summary
+
+**Total app generators analyzed:** 21
+
+**Full Arm Linux support:** 21 app generators (100%)
+- 18 web-based platforms (accessible from any browser)
+- 3 self-hostable Node.js applications (Bolt.diy, Srcbook, Blank Space)
+
+**Partial Arm Linux support:** 0 app generators (0%)
+
+**No Arm Linux support:** 0 app generators (0%)
+
+**Overall Arm Linux compatibility: 100%**

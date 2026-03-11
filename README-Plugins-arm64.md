@@ -29,3 +29,19 @@ Both plugins in this list are either **cloud-hosted ChatGPT plugins** or **self-
   python main.py
   ```
   Pure Python; no native compiled extensions. Fully arm64-compatible.
+
+---
+
+## Arm Linux Support Summary
+
+**Total OpenAI plugins analyzed:** 2
+
+**Full Arm Linux support:** 2 OpenAI plugins (100%)
+- 1 cloud-hosted ChatGPT plugin (accessible from any browser)
+- 1 self-hostable Python web server (architecture-agnostic)
+
+**Partial Arm Linux support:** 0 OpenAI plugins (0%)
+
+**No Arm Linux support:** 0 OpenAI plugins (0%)
+
+**Overall Arm Linux compatibility: 100%**

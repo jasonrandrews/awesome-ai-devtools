@@ -55,3 +55,19 @@ All PR agents in this list operate as **cloud-hosted services**, **GitHub integr
 - **[SwePT](https://github.com/keerthanpg/SwePT)** — 150-line open source Python PR generator. Pure Python; install via `pip install` or run directly. Works on any architecture.
 
 - **[Gito](https://github.com/Nayjest/Gito)** — Python CLI tool and GitHub Actions workflow. Pure Python; compatible with any LLM (local or cloud). Works on arm64 Linux.
+
+---
+
+## Arm Linux Support Summary
+
+**Total PR agents analyzed:** 24
+
+**Full Arm Linux support:** 24 PR agents (100%)
+- All PR agents operate as cloud-hosted services, GitHub integrations, or architecture-neutral CLI tools (Python/Node.js)
+- 4 tools can be self-hosted on arm64 Linux (Qodo PR Agent, Code Review GPT, SwePT, Gito)
+
+**Partial Arm Linux support:** 0 PR agents (0%)
+
+**No Arm Linux support:** 0 PR agents (0%)
+
+**Overall Arm Linux compatibility: 100%**

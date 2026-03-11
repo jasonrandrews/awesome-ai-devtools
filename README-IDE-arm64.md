@@ -61,3 +61,22 @@ These IDEs run entirely in the browser and therefore work on Arm Linux without a
 | [trae](https://www.trae.ai/) | Native arm64 support limited to macOS (Apple Silicon); Linux arm64 is a pending feature request |
 | [Nimbalyst](https://nimbalyst.com) | Desktop app (successor to Crystal), x86_64 Linux only |
 | [Parallel Code](https://github.com/johannesjo/parallel-code) | Linux release assets are `amd64` only |
+
+---
+
+## Arm Linux Support Summary
+
+**Total IDEs analyzed:** 17
+
+**Full Arm Linux support:** 9 IDEs (53%)
+- 3 with native arm64 desktop binaries (Cursor, Zed, CodeStory)
+- 6 web-based IDEs accessible from any browser
+
+**Partial Arm Linux support:** 2 IDEs (12%)
+- Theia IDE (Docker/web supports arm64; desktop is x86_64 only)
+- Melty (source code available; no pre-built arm64 binaries)
+
+**No Arm Linux support:** 6 IDEs (35%)
+- Crystal, PearAI, Windsurf, trae, Nimbalyst, Parallel Code
+
+**Overall Arm Linux compatibility: 65%** (combining full and partial support)

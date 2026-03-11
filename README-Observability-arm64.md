@@ -15,3 +15,18 @@ This document lists all observability tools from the [Awesome AI-Powered Develop
 The observability tool listed is a **web-based SaaS platform**. It requires no local installation and is accessible from any browser on any architecture, including arm64 Linux.
 
 - **[TraceRoot AI](https://traceroot.ai/)** — Uses AI agents to automatically detect and fix production bugs. The dashboard and agent platform are entirely cloud-hosted; no local binary or agent is installed on the developer's machine.
+
+---
+
+## Arm Linux Support Summary
+
+**Total observability tools analyzed:** 1
+
+**Full Arm Linux support:** 1 observability tool (100%)
+- 1 web-based SaaS platform (accessible from any browser)
+
+**Partial Arm Linux support:** 0 observability tools (0%)
+
+**No Arm Linux support:** 0 observability tools (0%)
+
+**Overall Arm Linux compatibility: 100%**

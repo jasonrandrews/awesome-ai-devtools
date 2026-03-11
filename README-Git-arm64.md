@@ -37,3 +37,20 @@ This document lists all Git clients from the [Awesome AI-Powered Developer Tools
 | Git Client | Notes |
 |------------|-------|
 | [GitBrain](https://gitbrain.dev/) | Closed-source desktop application; website was unreachable during research; no GitHub repository or public release listings were found to verify arm64 support |
+
+---
+
+## Arm Linux Support Summary
+
+**Total Git clients analyzed:** 4
+
+**Full Arm Linux support:** 2 Git clients (50%)
+- git-lrc and GitButler both provide native arm64 binaries
+
+**No Arm Linux support:** 1 Git client (25%)
+- AI Git Narrator (macOS only)
+
+**Unknown support:** 1 Git client (25%)
+- GitBrain (website unreachable; no public artifacts)
+
+**Overall Arm Linux compatibility: 50%** (excluding unknown tools)

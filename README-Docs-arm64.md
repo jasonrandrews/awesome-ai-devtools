@@ -35,3 +35,20 @@ DiagramGPT, DocuWriter.ai, Supacodes, CodexAtlas, and EkLine are all fully cloud
   pip install readmeai
   readmeai --repository https://github.com/your/repo --api openai
   ```
+
+---
+
+## Arm Linux Support Summary
+
+**Total documentation tools analyzed:** 7
+
+**Full Arm Linux support:** 7 documentation tools (100%)
+- 5 web-based platforms (accessible from any browser)
+- 1 VS Code extension (architecture-agnostic)
+- 1 pure Python pip package (README-AI, architecture-agnostic)
+
+**Partial Arm Linux support:** 0 documentation tools (0%)
+
+**No Arm Linux support:** 0 documentation tools (0%)
+
+**Overall Arm Linux compatibility: 100%**

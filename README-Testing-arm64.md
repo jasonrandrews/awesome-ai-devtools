@@ -142,3 +142,26 @@ export OPENAI_API_KEY=your-key-goes-here
 mutahunter run --test-command "pytest" --model "gpt-4o-mini" \
   --source-path "src/my_module.py" --test-path "tests/test_my_module.py"
 ```
+
+---
+
+## Arm Linux Support Summary
+
+**Total testing tools analyzed:** 11
+
+**Full Arm Linux support:** 9 testing tools (82%)
+- 5 web-based/SaaS tools (100% compatible)
+- 1 pure Python SDK (Traceloop)
+- 1 npm CLI tool (Meticulous.ai)
+- 2 IDE extensions (Qodo, DeepUnit)
+- 1 Python CLI/CI tool (MutahunterAI)
+
+**Partial Arm Linux support:** 1 testing tool (9%)
+- DiffBlue (IDE plugins work on arm64; Docker CLI is x86_64 only)
+
+**No Arm Linux support:** 0 testing tools (0%)
+
+**Unknown support:** 1 testing tool (9%)
+- AgentsKB (mentioned in summary but not in main list)
+
+**Overall Arm Linux compatibility: 91%** (combining full and partial support)

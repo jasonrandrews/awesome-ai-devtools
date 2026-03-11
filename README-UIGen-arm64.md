@@ -35,3 +35,21 @@ All UI generators in this list are **web-based platforms**, **VS Code extensions
 ### Self-Hostable UI Generator on Arm Linux
 
 - **[Rapidpages](https://github.com/rapidpages/rapidpages)** — Open source UI generator with a Next.js frontend. Self-hosted via Node.js. Clone the repository and run `npm install && npm run dev` — fully arm64-compatible since Node.js supports arm64 Linux.
+
+---
+
+## Arm Linux Support Summary
+
+**Total UI generators analyzed:** 13
+
+**Full Arm Linux support:** 13 UI generators (100%)
+- 11 web-based platforms (accessible from any browser)
+- 1 VS Code extension (architecture-agnostic)
+- 1 browser extension (architecture-agnostic)
+- 1 self-hostable Node.js application (Rapidpages)
+
+**Partial Arm Linux support:** 0 UI generators (0%)
+
+**No Arm Linux support:** 0 UI generators (0%)
+
+**Overall Arm Linux compatibility: 100%**

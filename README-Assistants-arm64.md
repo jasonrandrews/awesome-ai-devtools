@@ -127,3 +127,25 @@ All VS Code, JetBrains, and other IDE extensions are architecture-agnostic JavaS
 |-----------|-------|
 | [Amazon Q Developer CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html) | Linux release targets x86_64 only; also deprecated |
 | [Mantra](https://mantra.gonewx.com) | macOS-only desktop application |
+
+---
+
+## Arm Linux Support Summary
+
+**Total assistants analyzed:** 56
+
+**Full Arm Linux support:** 51 assistants (91%)
+- 14 web-based assistants (100% compatible)
+- 29 IDE extensions (architecture-agnostic)
+- 8 command-line tools with native arm64 binaries or architecture-neutral runtimes
+
+**Partial Arm Linux support:** 3 assistants (5%)
+- Pieces (CLI works; desktop backend is x86_64 only)
+- Refact AI (extensions and LSP work; self-hosted Docker is x86_64 only)
+- Tabby (extensions work; self-hosted server is x86_64 only on Linux)
+
+**No Arm Linux support:** 2 assistants (4%)
+- Amazon Q Developer CLI (deprecated)
+- Mantra (macOS only)
+
+**Overall Arm Linux compatibility: 96%** (combining full and partial support)

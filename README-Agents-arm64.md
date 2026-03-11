@@ -197,3 +197,28 @@ All of the following tools publish a `py3-none-any` wheel to PyPI (or are pure P
 ## Agents That Do NOT Support Arm Linux
 
 - **[VibeBox](https://vibebox.robcholz.com)** — Per-project micro-VM sandbox for running coding agents safely. Built in Rust and uses **Apple Virtualization Framework** (`objc2-virtualization` crate) — this is a macOS-only API. The `Cargo.toml` description explicitly states "Ultrafast CLI on Apple Silicon macOS." No Linux support is planned or possible without a full rewrite. Available via `cargo install vibebox` only on macOS (Apple Silicon). **Not available on Linux arm64.**
+
+---
+
+## Arm Linux Support Summary
+
+**Total agents analyzed:** 31
+
+**Full Arm Linux support:** 25 agents (81%)
+- 3 web-based/SaaS agents (100% compatible)
+- 10 pure Python pip packages (architecture-agnostic)
+- 1 VS Code extension (platform-agnostic)
+- 1 native arm64 binary (Grit)
+- 4 npm packages (Node.js, arm64-compatible)
+- 2 Claude Code plugins (platform-agnostic)
+- 4 Docker-based agents (likely arm64-compatible)
+
+**Partial Arm Linux support:** 5 agents (16%)
+- DevOpsGPT, Potpie, Open Agent (Docker-based; no explicit arm64 CI but likely compatible)
+- Second.dev (web-based but appears defunct)
+- Mentat (pip package exists but project abandoned)
+
+**No Arm Linux support:** 1 agent (3%)
+- VibeBox (macOS only; uses Apple Virtualization Framework)
+
+**Overall Arm Linux compatibility: 97%** (combining full and partial support)

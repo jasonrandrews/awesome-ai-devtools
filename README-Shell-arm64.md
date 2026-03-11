@@ -65,3 +65,22 @@ This document lists all shell assistants from the [Awesome AI-Powered Developer 
   go install github.com/bakks/butterfish/cmd/butterfish@latest
   ```
   This compiles natively for the host architecture and works on arm64 Linux with Go installed.
+
+---
+
+## Arm Linux Support Summary
+
+**Total shell assistants analyzed:** 9
+
+**Full Arm Linux support:** 8 shell assistants (89%)
+- 2 web-based tools (100% compatible)
+- 3 native arm64 binaries (Warp, TmuxAI, intelli-shell)
+- 2 pure Python pip packages (Shell Whiz, code-collator)
+- 1 architecture-agnostic shell script (AutoComplete.sh)
+
+**Partial Arm Linux support:** 1 shell assistant (11%)
+- Butterfish (no pre-built binaries; can build from source with Go)
+
+**No Arm Linux support:** 0 shell assistants (0%)
+
+**Overall Arm Linux compatibility: 100%** (all tools work on arm64, either natively or via source build)

@@ -29,3 +29,19 @@ CodePal, AI Code Convert, AI Code Playground, AutoRegex, and unpkg.ai are all en
   ```bash
   npx rule-gen
   ```
+
+---
+
+## Arm Linux Support Summary
+
+**Total snippet generators analyzed:** 6
+
+**Full Arm Linux support:** 6 snippet generators (100%)
+- 5 web-based platforms (accessible from any browser)
+- 1 Node.js CLI tool (rule-gen, architecture-agnostic)
+
+**Partial Arm Linux support:** 0 snippet generators (0%)
+
+**No Arm Linux support:** 0 snippet generators (0%)
+
+**Overall Arm Linux compatibility: 100%**
